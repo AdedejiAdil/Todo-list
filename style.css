@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #374151;
+   font-family: sans-serif;
+   color: white;
+   height: 120vh;
+}
+.container{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    padding:20px 60px 30px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.028);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    box-shadow: 4px 1px 1px 0px rgba(255, 255, 255, 0.138);
+}
+.todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.todo-list{
+    padding: 20px 0;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.296);
+    justify-content: center;
+}
+.todo-input{
+    width: 500px;
+    font-size: 1.2rem;
+    padding: 0.8rem 3rem;
+    margin-right: 12px;
+    border: none;
+    border-radius: 8px;
+    background:rgba(27, 27, 40, 0.625);
+    box-shadow: 3px 2px 2px 2px rgba(27, 27, 40, 0.739);
+    color: rgba(255, 255, 255, 0.472);
+    outline: none;
+}
+.add{
+    background:rgba(27, 27, 40, 0.625);
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.472);
+    padding: 0.8rem 2rem;
+    box-shadow: 3px 2px 2px 2px rgba(27, 27, 40, 0.739);
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.add:hover{
+    transform: scale(1.05);
+}
+.todo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 1rem 0;
+    transition: 0.7s ease-in-out;
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.331);
+    
+}
+.todo-item{
+    font-size: 1.2rem;
+    width: 500px;
+    background:rgb(25, 25, 37);
+    box-shadow: 3px 2px 1px 2px rgb(27, 27, 40);
+    color: rgba(255, 255, 255, 0.472);
+    padding: 0.7rem 3rem;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.delete{
+    font-size: 1.2rem;
+    background:rgb(25, 25, 37);
+    color: rgba(255, 255, 255, 0.472);
+    padding: 0.8rem 1.7rem;
+    box-shadow: 3px 2px 2px 2px rgb(27, 27, 40);
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.delete:hover{
+    transform: scale(1.05);
+}
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity:0.5%;
+}
